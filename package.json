@@ -1,0 +1,27 @@
+{
+  "name": "find-pkg",
+  "description": "Find the first directory with a package.json, recursing up, starting with the given directory.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/find-pkg",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/find-pkg",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/find-pkg/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": []
+}
