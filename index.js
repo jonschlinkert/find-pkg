@@ -14,7 +14,8 @@
 var findFile = require('find-file-up');
 
 /**
- * Find package.json, starting with the given directory
+ * Find package.json, starting with the given directory.
+ * Based on https://github.com/jonschlinkert/look-up
  */
 
 module.exports = function(dir, cb) {
