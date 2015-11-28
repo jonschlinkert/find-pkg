@@ -1,7 +1,7 @@
 /*!
  * find-pkg <https://github.com/jonschlinkert/find-pkg>
  *
- * Copyright (c) 2015 .
+ * Copyright (c) 2015 Jon Schlinkert.
  * Licensed under the MIT license.
  */
 
