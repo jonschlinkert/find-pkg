@@ -22,6 +22,10 @@ module.exports = function(dir, cb) {
   return findFile('package.json', dir, cb);
 };
 
+/**
+ * Sync
+ */
+
 module.exports.sync = function(dir) {
   return findFile.sync('package.json', dir);
 };
