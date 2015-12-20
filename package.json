@@ -1,7 +1,7 @@
 {
   "name": "find-pkg",
   "description": "Find the first directory with a package.json, recursing up, starting with the given directory. Similar to look-up but does not support globs and only searches for package.json. Async and sync.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/find-pkg",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/find-pkg",
@@ -20,7 +20,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "find-file-up": "^0.1.0"
+    "find-file-up": "^0.1.1"
   },
   "devDependencies": {
     "delete": "^0.2.1",
