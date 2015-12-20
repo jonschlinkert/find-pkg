@@ -54,6 +54,17 @@ describe('find-file', function() {
       cb();
     });
   });
+
+  it('should stop at the given limit', function(cb) {
+    findPkg('fixtures/a/b/c/d/e', function(err, fp) {
+      assert.equal(fp, path.resolve('fixtures/a/b/package.json'));
+
+      findPkg('fixtures/a/b/c/d/e', 2, function(err, fp) {
+        assert.equal(fp, undefined);
+        cb();
+      });
+    });
+  });
 });
 
 describe('find-file-sync', function() {
@@ -78,6 +89,14 @@ describe('find-file-sync', function() {
   it('should resolve a file from one directory up:', function() {
     var fp = findPkg.sync('test');
     assert.equal(fp, path.resolve('package.json'));
+  });
+
+  it('should stop at the given limit', function() {
+    var fp = findPkg.sync('fixtures/a/b/c/d/e');
+    assert.equal(fp, path.resolve('fixtures/a/b/package.json'));
+
+    fp = findPkg.sync('fixtures/a/b/c/d/e', 2);
+    assert.equal(fp, undefined);
   });
 
   it('should resolve package.json from multiple directories up:', function() {

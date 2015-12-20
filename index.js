@@ -18,14 +18,14 @@ var findFile = require('find-file-up');
  * Based on https://github.com/jonschlinkert/look-up
  */
 
-module.exports = function(dir, cb) {
-  return findFile('package.json', dir, cb);
+module.exports = function(dir, limit, cb) {
+  return findFile('package.json', dir, limit, cb);
 };
 
 /**
  * Sync
  */
 
-module.exports.sync = function(dir) {
-  return findFile.sync('package.json', dir);
+module.exports.sync = function(dir, limit) {
+  return findFile.sync('package.json', dir, limit);
 };
