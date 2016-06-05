@@ -20,22 +20,30 @@
     "test": "mocha"
   },
   "dependencies": {
-    "find-file-up": "^0.1.1"
+    "find-file-up": "^0.1.2"
   },
   "devDependencies": {
-    "delete": "^0.2.1",
-    "mocha": "*",
+    "delete": "^0.3.2",
+    "mocha": "^2.5.3",
     "resolve-dir": "^0.1.0"
   },
+  "keywords": [
+    "find",
+    "pkg"
+  ],
   "verb": {
     "related": {
       "list": [
         "find-file-up",
-        "look-up",
-        "load-pkg",
         "load-module-pkg",
+        "load-pkg",
+        "look-up",
         "module-root"
       ]
-    }
+    },
+    "reflinks": [
+      "look-up",
+      "find-file-up"
+    ]
   }
 }
