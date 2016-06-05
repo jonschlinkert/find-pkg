@@ -24,12 +24,22 @@
   },
   "devDependencies": {
     "delete": "^0.3.2",
+    "gulp-format-md": "^0.1.9",
     "mocha": "^2.5.3",
     "resolve-dir": "^0.1.0"
   },
   "keywords": [
+    "filepath",
     "find",
-    "pkg"
+    "findup",
+    "findup-sync",
+    "json",
+    "lookup",
+    "package",
+    "package-json",
+    "pkg",
+    "resolve",
+    "sync"
   ],
   "verb": {
     "related": {
@@ -42,8 +52,20 @@
       ]
     },
     "reflinks": [
+      "find-file-up",
       "look-up",
-      "find-file-up"
-    ]
+      "verb"
+    ],
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
   }
 }
