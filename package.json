@@ -20,13 +20,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "find-file-up": "^0.1.2"
+    "find-file-up": "^1.0.2"
   },
   "devDependencies": {
-    "delete": "^0.3.2",
-    "gulp-format-md": "^0.1.9",
-    "mocha": "^2.5.3",
-    "resolve-dir": "^0.1.0"
+    "delete": "^1.0.1",
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.4.1",
+    "resolve-dir": "^1.0.0"
   },
   "keywords": [
     "filepath",

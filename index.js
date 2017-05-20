@@ -1,8 +1,8 @@
 /*!
  * find-pkg <https://github.com/jonschlinkert/find-pkg>
  *
- * Copyright (c) 2015, Jon Schlinkert.
- * Licensed under the MIT License.
+ * Copyright (c) 2015-2017, Jon Schlinkert.
+ * Released under the MIT License.
  */
 
 'use strict';
@@ -14,8 +14,7 @@
 var findFile = require('find-file-up');
 
 /**
- * Find package.json, starting with the given directory.
- * Based on https://github.com/jonschlinkert/look-up
+ * Find package.json, starting with the given directory
  */
 
 module.exports = function(dir, limit, cb) {
